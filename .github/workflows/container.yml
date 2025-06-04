@@ -6,7 +6,7 @@ jobs:
   container-test-job:
     runs-on: jph-self-hosted
     container:
-      image: cfsbuildenv-ubuntu22:test
+      image: localhost:5000/cfsbuildenv-ubuntu22:test
 
     steps:
       - name: Say Hello
